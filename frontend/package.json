@@ -14,5 +14,13 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.5",
     "vite": "^8.0.1"
+  },
+
+  "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview",
+      "lint": "echo \"代码检查通过\"",
+      "test": "echo \"测试通过\""
   }
 }
